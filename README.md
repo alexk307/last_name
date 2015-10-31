@@ -1,7 +1,11 @@
 # Name Suggester
-
 Suggests valid names that sound similar to a given name.
-Based on the double metaphone algorithm (https://en.wikipedia.org/wiki/Metaphone#Double_Metaphone).
+
+# Why?
+To be able to find valid names and nicknames that may be used in place of someone elses name.
+
+# How?
+Uses US Census data as a history of possible valid names. Based on the [double metaphone algorithm](https://en.wikipedia.org/wiki/Metaphone#Double_Metaphone), and [Levenshein Distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
 
 # Install it
 `pip install name_suggestor`
