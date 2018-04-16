@@ -1,6 +1,6 @@
 import json
 from metaphone import doublemetaphone
-from name_file import names
+from .name_file import names
 
 
 def levenshtein_distance(s1, s2):
